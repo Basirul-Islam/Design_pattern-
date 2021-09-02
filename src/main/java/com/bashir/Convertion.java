@@ -1,0 +1,8 @@
+package com.bashir;
+
+import org.json.JSONArray;
+
+public interface Convertion {
+
+    public void convert(JSONArray studentList);
+}

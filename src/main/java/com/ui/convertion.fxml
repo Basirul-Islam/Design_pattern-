@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<fx:root prefHeight="400.0" prefWidth="600.0" type="AnchorPane" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ui.controller">
+   <children>
+      <AnchorPane id="Ipane" layoutX="129.0" layoutY="69.0" opacity="0.55" prefHeight="238.0" prefWidth="297.0" style="-fx-background-color: blue;">
+         <children>
+            <Button id="Select_file" fx:id="Select_file" layoutX="39.0" layoutY="41.0" mnemonicParsing="false" onAction="#print" prefHeight="34.0" prefWidth="74.0" text="Select File" textFill="#105e3a">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Button>
+            <Label id="path" fx:id="path" layoutX="125.0" layoutY="42.0" prefHeight="34.0" prefWidth="146.0" style="-fx-background-color: white;" text="   path......" />
+            <ComboBox id="choose_file" fx:id="choose_file" layoutX="73.0" layoutY="89.0" prefWidth="150.0" promptText="chose_file" style="-fx-background-color: #E74C3C;" />
+            <Button id="conver_file" fx:id="convert_file" layoutX="108.0" layoutY="136.0" mnemonicParsing="false" text="Covert File" />
+         </children>
+      </AnchorPane>
+   </children>
+</fx:root>
